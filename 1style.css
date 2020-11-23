@@ -1,13 +1,13 @@
-header{
+body{
     border:20px solid white;
     border-radius: 50px;
     text-align: center;
     font-size: 25;
     font-family:serif;
-    background-color: azure;
+    background-color: darkseagreen;
     
 }
-.fase header{
+.fase body{
     float:left;
 }
 .face {
@@ -42,10 +42,9 @@ h1{
 figcaption{
     text-align: center;
 }
-body{
-    background-color: darkseagreen;
-}
+
+
 .hello{
     text-align:left;
 }
-	   
+
