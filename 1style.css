@@ -1,4 +1,5 @@
 body{
+    box-shadow: 7px 7px 5px rgba(0,0,0,0.6);
     border:20px solid white;
     border-radius: 50px;
     text-align: center;
@@ -11,13 +12,14 @@ body{
     float:left;
 }
 .face {
-    
+    box-shadow: 7px 7px 5px rgba(0,0,0,0.6);
     vertical-align: sub;
     border-style: none;
     border-radius: 50px;
     
 }
 figure{
+     box-shadow: inset 7px 7px 5px rgba(0,0,0,0.6);
     border-radius: 50px;
     border: 8px solid rgb(202, 224, 200);
     text-align: center;
@@ -30,13 +32,14 @@ h1{
     font-family:monospace;
     font-style: italic;
 }
-.number{
+.number{ 
+    box-shadow: 7px 7px 5px rgba(0,0,0,0.6);
     text-align: center;
     border: 10px solid silver;
     border-radius: 50px;
 }
 .foto{
-    
+    box-shadow: 7px 7px 5px rgba(0,0,0,0.6); 
     border-radius: 50px;
 }
 figcaption{
@@ -46,5 +49,32 @@ figcaption{
 
 .hello{
     text-align:left;
+}
+
+
+input{
+     box-shadow:  7px 7px 5px rgba(0,0,0,0.6);
+    
+    background-color:azure;
+    border-radius: 10px;
+}
+form{
+     box-shadow: 7px 7px 5px rgba(0,0,0,0.6);
+    border: 10px solid silver;
+    border-radius:50px;
+    width: 600px;
+    height: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+.vopros{
+    box-shadow:  inset 7px 7px 5px rgba(0,0,0,0.6);
+    width: 600px;
+    height: 80px;
+    font-family: cursive;
+    font-size: 20px;
+    font-style: oblique;
+    background-color: aliceblue;
 }
 
